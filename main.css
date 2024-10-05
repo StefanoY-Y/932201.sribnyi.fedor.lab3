@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    font-family: "arial";
+}
+
+header {
+    color: white;
+    line-height: 2;
+    font-size: 25px;
+    text-align: center;
+    background-color: green;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    clear: both;
+
+}
+
+.main {
+    max-width: 900px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-panel {
+    color: white;
+    float: left;
+    background-color: red;
+    padding-right: 20px;
+    padding-left: 25px;
+    padding-top: 15px;
+    min-width: 160px;
+    height: 860px;
+}
+
+ul {
+    text-decoration: underline;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+li:hover {
+    background-color: green;
+}
+
+nav li {
+    margin-top: 15px;
+    line-height: 1.1;
+}
+
+span {
+    font-size: 25px;
+}
+
+.text {
+    text-align: justify;
+    padding-right: 80px;
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 1.25;
+}
+
+.text::selection {
+    color: white;
+    background-color: green;
+}
